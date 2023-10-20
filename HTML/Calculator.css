@@ -1,0 +1,94 @@
+body{
+    background-color: salmon;
+}
+.container {
+    border: 1px solid #cccccc;
+    background-color: white;
+    box-shadow: 10px 10px 30px 0px black;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 400px;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    margin:auto;
+}
+
+.button {
+    height: 60px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    background-color: transparent;
+    font-size: 2rem;
+    color: #333;
+    background-image:  rgba(0, 0, 0, 0.04);
+    box-shadow: black;
+    
+}
+
+.button:hover {
+    background-color: #eaeaea;
+}
+
+.operator {
+    color: black;
+    background-color: darkgray;
+    font-size: x-large;
+}
+
+.clear {
+    background-color:red;
+    border-color: #b0353a;
+    color: white;
+    width: 21%;
+    height: 15%;
+    font-size: x-large;
+      
+}
+
+.clear:hover {
+    background-color:salmon;
+}
+
+.equal-sign {
+    background-color: deepskyblue;
+    border-color: #25a8e0;
+    color: white;
+}
+
+.equal-sign:hover {
+    background-color: #4e9ed4;
+
+}
+
+.screen{
+    background-color:cyan;
+    justify-content: left;
+    color: black;
+    font-size: x-large;
+    width:28%;
+    height: 10%;
+    cursor: default;
+    padding: 10px; 
+    padding-left: 40%;
+    margin: 10px;
+    margin-bottom: 10px;
+    float: start;
+}
+
+h6{
+    color: white;
+    font-family: 'Verdana';
+    text-align: center;
+}
+
+
